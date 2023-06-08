@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://ahkevinxy.github.io/hugo_blog/"
+baseurl = "https://goofish-shop.github.io/hugo-stack-theme-blog/"
 languageCode = "zh-cn"
 paginate = 10
 title = "ahKevinXy"

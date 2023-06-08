@@ -5,6 +5,7 @@ on:
         branches: [master]
     pull_request:
         branches: [master]
+env:
 
 jobs:
     build:
@@ -47,8 +48,11 @@ jobs:
 
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@v4.4.2
+              env: 
+                PERSONAL_TOKEN: ${{ secrets.workflows }}
               with:
                   branch: gh-pages
+                 
                   folder: public
                   clean: true
                   single-commit: true

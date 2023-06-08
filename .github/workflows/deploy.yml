@@ -51,7 +51,6 @@ jobs:
 
               with:
                   branch: gh-pages
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
                   folder: public
                   clean: true
                   single-commit: true
